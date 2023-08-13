@@ -1,0 +1,37 @@
+body {
+	background-color: #292929;
+	display: flex;
+	color: #b8b8b8;
+}
+
+file {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 10px;
+}
+
+button {
+	background-color: #333333;
+	margin-bottom: 15px;
+	padding: 8px;
+	appearance: none;
+	border: none;
+	color: inherit;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+compare {
+	background-color: #333333;
+}
+
+input {
+	color: inherit;
+	background-color: transparent;
+	border: none;
+}
+
+input:focus, input:focus:hover, button:focus {
+	outline: none;
+}
